@@ -76,9 +76,7 @@ nav a {
 }
 
 .banner .profile-pic {
-    width: 680px;
-    height: 676px;
-    flex-shrink: 0;
+    width: 500px;
 }
 
 .banner-greeting {
@@ -168,7 +166,7 @@ main section {
     gap: 50px;
 }
 
-.resume-item-info{
+.resume-item-info {
     margin-bottom: 20px;
     margin-top: 0px;
 }
@@ -185,20 +183,43 @@ main section {
     font-size: 25px;
     font-weight: 700;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px
 }
-.dowenload-cv{
+
+.dowenload-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer styles  */
-footer{
+footer {
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     margin-top: 131px;
     padding: 130px 200px;
 }
-#des{
-    
+
+.footer-column {
+    width: 50%;
+}
+.social-link a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"], input[type="email"],
+ textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: var(--Dark-03, #757575);
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: 0;
+    width: 100%;
+}
+.contact{
+
 }
